@@ -6,6 +6,9 @@ A GitHub tempalte to have all these setup to start your development.
 <span><img src="public/typescript.png" width="40px" alt="typescript"></span>
 <span><img src="public/snowpack.png" width="50px" alt="snowpack"></span>
 
+## Create a new app
+`npx create-snowpack-app my-app --template app-template-svelte-typescript-tailwind`
+
 ### npm start
 
 Runs the app in the development mode.
