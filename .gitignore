@@ -1,3 +1,5 @@
 .snowpack
+.nvmrc
+package-lock.json
 build
 node_modules

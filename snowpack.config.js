@@ -7,8 +7,7 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-svelte',
     '@snowpack/plugin-dotenv',
-    '@snowpack/plugin-typescript',
-    '@snowpack/plugin-postcss'
+    '@snowpack/plugin-typescript'
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

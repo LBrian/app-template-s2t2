@@ -1,5 +1,4 @@
 <script lang="typescript">
-  import './main.css';
   import { onMount } from "svelte";
 
   let count: number = 0;
@@ -14,7 +13,7 @@
 <div class="App">
   <header class="App-header">
     <img src="/logo.svg" class="App-logo" alt="logo" />
-    <p class="font-bold bg-green-400">Edit <code>src/App.svelte</code> and save to reload.</p>
+    <p>Edit <code>src/App.svelte</code> and save to reload.</p>
     <p>Page has been open for <code>{count}</code> seconds.</p>
     <p>
       <a
@@ -35,42 +34,36 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .App {
-    text-align: center;
+    @apply text-center;
+    @apply text-xl;
   }
   .App code {
-    background: #0002;
-    padding: 4px 8px;
-    border-radius: 4px;
+    @apply bg-red-200;
+    @apply px-1;
+    @apply py-2;
+    @apply rounded;
+    @apply font-bold;
   }
   .App p {
-    margin: 0.4rem;
+    @apply m-2;
   }
 
   .App-header {
-    background-color: #f9f6f6;
-    color: #333;
+    @apply bg-white;
+    @apply text-black;
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply justify-center;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
   }
   .App-link {
-    color: #ff3e00;
+    @apply text-red-600;
   }
   .App-logo {
     height: 36vmin;
     pointer-events: none;
     margin-bottom: 3rem;
-    animation: App-logo-spin infinite 1.6s ease-in-out alternate;
-  }
-  @keyframes App-logo-spin {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.06);
-    }
+    @apply animate-pulse;
   }
 </style>
