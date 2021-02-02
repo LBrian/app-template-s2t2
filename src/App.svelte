@@ -11,7 +11,7 @@
 </script>
 
 <div class="App">
-  <header class="App-header">
+  <header>
     <img src="/logo.svg" class="App-logo" alt="logo" />
     <p>Edit <code>src/App.svelte</code> and save to reload.</p>
     <p>Page has been open for <code>{count}</code> seconds.</p>
@@ -28,42 +28,29 @@
   </header>
 </div>
 
-<style>
+<style type="text/postcss">
   :global(body) {
-    margin: 0;
+    @apply m-0;
     font-family: Arial, Helvetica, sans-serif;
   }
   .App {
-    @apply text-center;
-    @apply text-xl;
+    @apply text-center text-xl;
   }
   .App code {
-    @apply bg-red-200;
-    @apply px-1;
-    @apply py-2;
-    @apply rounded;
-    @apply font-bold;
+    @apply bg-red-200 px-1 py-2 rounded font-bold;
   }
   .App p {
     @apply m-2;
   }
 
-  .App-header {
-    @apply bg-white;
-    @apply text-black;
-    @apply flex;
-    @apply flex-col;
-    @apply items-center;
-    @apply justify-center;
-    min-height: 100vh;
+  .App header {
+    @apply bg-white text-black flex flex-col items-center justify-center min-h-screen;
   }
   .App-link {
     @apply text-red-600;
   }
   .App-logo {
     height: 36vmin;
-    pointer-events: none;
-    margin-bottom: 3rem;
-    @apply animate-pulse;
+    @apply animate-pulse mb-12 pointer-events-none;
   }
 </style>

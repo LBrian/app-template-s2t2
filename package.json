@@ -2,11 +2,12 @@
   "name": "app-template-svelte-typescript-tailwind",
   "homepage": "https://github.com/LBrian/app-template-svelte-typescript-tailwind",
   "description": "GitHub template for Snowpack + Svelte + Typescript + TailwindCSS",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "author": {
     "name": "Brian YP Liu",
-    "email": "ralphbliu@gmail.com"
+    "email": "ralphbliu@gmail.com",
+    "url": "https://brianypliu.com/"
   },
   "keywords": [
     "csa-template",
