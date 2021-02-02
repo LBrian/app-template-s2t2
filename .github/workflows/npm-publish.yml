@@ -4,13 +4,13 @@ name: Publish NPM on merge
     branches:
       - main
 jobs:
-  build_and_deploy:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with: 
           node-version: '15.4.0'
-      - run: npm publish --access public
-      - env:
-          NPM_TOKEN: 292a906c-0d7d-49f7-ad20-fafb67fd219d
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: 292a906c-0d7d-49f7-ad20-fafb67fd219d
