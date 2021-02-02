@@ -1,10 +1,10 @@
 # Snowpack + Svelte + Tailwind + Typescript template
 A GitHub tempalte to have all these setup to start your development.
 
-<img src="public/logo.svg" width="40px" alt="svelte">
-<img src="public/tailwindcss.svg" width="70px" alt="tailwindcss">
-<img src="public/typescript.png" width="40px" alt="typescript">
-<img src="public/snowpack.png" width="50px" alt="snowpack">
+<span><img src="public/logo.svg" width="40px" alt="svelte"></span>
+<span><img src="public/tailwindcss.svg" width="70px" alt="tailwindcss"></span>
+<span><img src="public/typescript.png" width="40px" alt="typescript"></span>
+<span><img src="public/snowpack.png" width="50px" alt="snowpack"></span>
 
 ### npm start
 
