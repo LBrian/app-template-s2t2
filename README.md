@@ -1,10 +1,10 @@
 # Snowpack + Svelte + Tailwind + Typescript template
 A GitHub and `csa-teamplate` tempalte to start developing SSTT in seconds.
 
-<span><img src="./public/logo.svg" width="40px" alt="svelte"></span>
-<span><img src="./public/tailwindcss.svg" width="70px" alt="tailwindcss"></span>
-<span><img src="./public/typescript.png" width="40px" alt="typescript"></span>
-<span><img src="./public/snowpack.png" width="50px" alt="snowpack"></span>
+<span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/logo.svg?raw=true" width="40px" alt="svelte"></span>
+<span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/tailwindcss.svg?raw=true" width="70px" alt="tailwindcss"></span>
+<span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/typescript.png?raw=true" width="40px" alt="typescript"></span>
+<span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/snowpack.png?raw=true" width="50px" alt="snowpack"></span>
 
 ## Why this template
 * Purge unused TailwindCSS untilities
