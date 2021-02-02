@@ -12,3 +12,5 @@ jobs:
         with: 
           node-version: '15.4.0'
       - run: npm publish --access public
+      - env:
+          NPM_TOKEN: 292a906c-0d7d-49f7-ad20-fafb67fd219d
