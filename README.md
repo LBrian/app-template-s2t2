@@ -1,6 +1,11 @@
 # Snowpack + Svelte + Tailwind + Typescript template
 A GitHub and `csa-teamplate` tempalte to start developing SSTT in seconds.
 
+![svelte](https://img.shields.io/badge/svelte-3.32.1-blue)
+![tailwindcss](https://img.shields.io/badge/tailwindcss-2.0.2-blue)
+![Typescript](https://img.shields.io/badge/typescript-4.1.3-blue)
+![snowpack](https://img.shields.io/badge/snowpack-3.0.11-blue)
+
 <span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/logo.svg?raw=true" width="40px" alt="svelte"></span>
 <span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/tailwindcss.svg?raw=true" width="70px" alt="tailwindcss"></span>
 <span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/typescript.png?raw=true" width="40px" alt="typescript"></span>
