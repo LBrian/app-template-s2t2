@@ -12,6 +12,7 @@ A GitHub and `csa-teamplate` tempalte to start developing SSTT in seconds.
 <span><img src="https://github.com/LBrian/app-template-svelte-typescript-tailwind/blob/main/public/snowpack.png?raw=true" width="50px" alt="snowpack"></span>
 
 ## Why this template
+[See more](https://ralphbliu.medium.com/s2t2-snowpack-svelte-tailwindcss-typescript-8928caa5af6c)
 * Purge unused TailwindCSS untilities
 * No unnecessary messy `postcss` dependencies
 
