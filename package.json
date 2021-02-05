@@ -2,7 +2,7 @@
   "name": "app-template-sstt",
   "homepage": "https://github.com/LBrian/app-template-s2t2",
   "description": "GitHub/CSA template for Snowpack + Svelte + Typescript + TailwindCSS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Brian YP Liu",

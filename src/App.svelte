@@ -1,5 +1,5 @@
 <script lang="typescript">
-  import { onMount } from "svelte";
+  import { onMount } from 'svelte';
 
   let count: number = 0;
   onMount(() => {
