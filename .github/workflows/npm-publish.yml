@@ -13,4 +13,4 @@ jobs:
           node-version: 10
       - uses: JS-DevTools/npm-publish@v1
         with:
-          token: 292a906c-0d7d-49f7-ad20-fafb67fd219d
+          token: edd2f81f-6205-4ebc-936b-2231bb160414
