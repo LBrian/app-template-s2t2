@@ -11,6 +11,13 @@ jobs:
       - uses: actions/setup-node@v1
         with: 
           node-version: '15.4.0'
-      - uses: JS-DevTools/npm-publish@v1
+      - uses: pascalgn/npm-publish-action@1.3.6
         with:
-          token: 292a906c-0d7d-49f7-ad20-fafb67fd219d
+          tag_name: "v%s"
+          tag_message: "v%s"
+          create_tag: "true"
+          publish_command: "npm"
+          publish_args: "--access public"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: 292a906c-0d7d-49f7-ad20-fafb67fd219d
