@@ -1,5 +1,5 @@
 # Snowpack + Svelte + Tailwind + Typescript template
-A GitHub and `csa-teamplate` tempalte to start developing SSTT in seconds.
+A GitHub and `csa-template` template to start developing SSTT in seconds.
 
 ![svelte](https://img.shields.io/badge/svelte-3.32.1-blue)
 ![tailwindcss](https://img.shields.io/badge/tailwindcss-2.0.2-blue)
@@ -13,11 +13,11 @@ A GitHub and `csa-teamplate` tempalte to start developing SSTT in seconds.
 
 ## Why this template
 [See more](https://ralphbliu.medium.com/s2t2-snowpack-svelte-tailwindcss-typescript-8928caa5af6c)
-* Purge unused TailwindCSS untilities
+* Purge unused TailwindCSS utilities
 * No unnecessary messy `postcss` dependencies
 
 ## Create a new app
-`npx create-snowpack-app my-app --template app-template-svelte-typescript-tailwind`
+`npx create-snowpack-app my-app --template app-template-sstt && cd my-app && npm start`
 
 ### npm start
 
