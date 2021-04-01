@@ -1,6 +1,6 @@
 # Snowpack + Svelte + Tailwind + Typescript template
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A GitHub and `csa-template` template to start developing SSTT in seconds.
 
@@ -56,6 +56,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://hchiam.com/?can-you-find-all-the-hidden-features?"><img src="https://avatars.githubusercontent.com/u/18131787?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Howard Chiam</b></sub></a><br /><a href="https://github.com/LBrian/app-template-s2t2/commits?author=hchiam" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/avimshah"><img src="https://avatars.githubusercontent.com/u/25670207?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avi Shah</b></sub></a><br /><a href="https://github.com/LBrian/app-template-s2t2/commits?author=avimshah" title="Code">💻</a></td>
   </tr>
 </table>
 
